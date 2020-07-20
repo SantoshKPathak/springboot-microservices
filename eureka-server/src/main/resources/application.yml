@@ -1,0 +1,13 @@
+server:
+  port: 8761
+  
+#Eureka server also act as a client and it try to register with other Eureka servers. 
+#If only one Eureka server running and trying to register with other.
+
+#If you are planing to have single instance in production or working under development environment, 
+#you can disable their registry process( disable client like behaviour)
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

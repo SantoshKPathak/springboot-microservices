@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: movie-catalog-service
+    
+server:
+  port: 8081
+  
+api:
+  movieinfoservice:
+    url: http://movie-info-service/movies/
+  ratingsdatservice:
+    url: http://ratings-data-service/ratingsdata/users/
+  

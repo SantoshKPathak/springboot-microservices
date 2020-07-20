@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: movie-info-service
+    
+server:
+  port: 8082
+  
+themoviedb:
+  api_key: 7b5cf94467ad42c27062d1a752672d32
+  url: https://api.themoviedb.org/3/movie/
+  
